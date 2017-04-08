@@ -1,0 +1,20 @@
+/*
+#(Export Table to csv(Exel) file)
+SELECT * FROM 
+tableName
+INTO OUTFILE 
+'C:\\folderName\\fileName.csv' 
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
+*/
+/*
+#(Import Table From csv(Exel) file)
+LOAD DATA INFILE 
+'C:\\folderName\\fileName.csv' 
+INTO TABLE 
+tableName
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
+*/   

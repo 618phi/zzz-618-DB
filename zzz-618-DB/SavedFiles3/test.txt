@@ -1,0 +1,8 @@
+
+SELECT * FROM 
+trig
+INTO OUTFILE 
+'C:\\tables\\trig.csv' 
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
